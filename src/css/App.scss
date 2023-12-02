@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,200&display=swap');
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+
+    background-image: url("../../public/home-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    // padding: 50px;
+    // margin: 0 auto;
+    // // width: 100vw;
+    height: 100vh;
+
+    header{
+        padding: 50px;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            font-size: 35px; 
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        nav{
+            font-size: 20px;
+            gap: 40px;
+        }
+    }
+
+    .hero{
+        color: white;
+        margin-top: calc(20vh - 85px);
+        align-items: center;
+        justify-content: center;
+
+        span{
+            font-family: 'Crimson Pro', serif;
+            font-size: 110px;
+
+            .since{
+                margin-top: 10px;
+                font-size: 40px;
+            }
+        }
+        .arrow{
+            margin-top: 20px;
+            font-size:60px;
+        }
+    }
+   
+}
+
+.homepage-section{
+    padding: 30px 50px 0px 50px;
+    .section-description{
+        gap: 100px;
+        padding: 80px 0px 100px 0px;
+        .heading{
+            width: 50%;
+            font-size: 50px;
+        }
+        .desciption{
+            width: 50%;
+            font-size: 19px;
+            line-height: 30px;
+            .description-links{
+                gap: 20px;
+            }
+            a{
+                text-decoration: underline;
+                color: rgb(165, 165, 165);
+            }
+        }
+    }
+    .hero-gallery-bg{
+
+        align-items: center;
+        justify-content: center;
+
+        background-image: url("../../public/hero-img-2.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+        .overlay{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100%;
+            opacity: 0.5;
+            background-color: #000;
+        }
+
+        color: white;
+        font-size: 100px;
+        
+
+    }
+
+    .hero-gallery-bg:hover {
+       font-size: 110px;
+    }
+
+    .journal-gallery{
+        justify-content: space-between;
+        
+        .hero-gallery-bg{
+            width: 45vw;
+            height: 40vh;
+            font-size: 70px;
+        }
+        .hero-gallery-bg:hover {
+            font-size: 75px;
+         }
+    }
+
+    .participate-gallery{
+        background-image: url("../../public/hero-img-4.jpeg");
+        height: 50vh;
+    }
+
+}
+
+footer{
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    .subscribe{
+        font-size: 20px;
+        form{
+            padding: 30px;
+            gap: 20px;
+            input{
+                width: 20vw;
+                height: 5vh;
+                padding: 10px;
+                outline: none;
+            }
+            button{
+                cursor: pointer;
+                background-color: black;
+                color: white;
+                outline: none;
+                border: none;
+                width: 5vw;
+            }
+        }
+    }
+
+    .footer-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        color: white;
+        background-color: black;
+        width: 100vw;
+        height: 20vh;
+        .links{
+            gap: 20px;
+        }
+        a{
+            color: white;
+            text-decoration: underline;
+        }
+
+    }
+}

@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,200&display=swap");
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-image: url("../../public/home-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+main header {
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+main header .logo {
+  font-size: 35px;
+}
+main header a {
+  text-decoration: none;
+  color: white;
+}
+main header nav {
+  font-size: 20px;
+  gap: 40px;
+}
+main .hero {
+  color: white;
+  margin-top: calc(20vh - 85px);
+  align-items: center;
+  justify-content: center;
+}
+main .hero span {
+  font-family: "Crimson Pro", serif;
+  font-size: 110px;
+}
+main .hero span .since {
+  margin-top: 10px;
+  font-size: 40px;
+}
+main .hero .arrow {
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+.homepage-section {
+  padding: 30px 50px 0px 50px;
+}
+.homepage-section .section-description {
+  gap: 100px;
+  padding: 80px 0px 100px 0px;
+}
+.homepage-section .section-description .heading {
+  width: 50%;
+  font-size: 50px;
+}
+.homepage-section .section-description .desciption {
+  width: 50%;
+  font-size: 19px;
+  line-height: 30px;
+}
+.homepage-section .section-description .desciption .description-links {
+  gap: 20px;
+}
+.homepage-section .section-description .desciption a {
+  text-decoration: underline;
+  color: rgb(165, 165, 165);
+}
+.homepage-section .hero-gallery-bg {
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../public/hero-img-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  font-size: 100px;
+}
+.homepage-section .hero-gallery-bg .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #000;
+}
+.homepage-section .hero-gallery-bg:hover {
+  font-size: 110px;
+}
+.homepage-section .journal-gallery {
+  justify-content: space-between;
+}
+.homepage-section .journal-gallery .hero-gallery-bg {
+  width: 45vw;
+  height: 40vh;
+  font-size: 70px;
+}
+.homepage-section .journal-gallery .hero-gallery-bg:hover {
+  font-size: 75px;
+}
+.homepage-section .participate-gallery {
+  background-image: url("../../public/hero-img-4.jpeg");
+  height: 50vh;
+}
+
+footer {
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+footer .subscribe {
+  font-size: 20px;
+}
+footer .subscribe form {
+  padding: 30px;
+  gap: 20px;
+}
+footer .subscribe form input {
+  width: 20vw;
+  height: 5vh;
+  padding: 10px;
+  outline: none;
+}
+footer .subscribe form button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  width: 5vw;
+}
+footer .footer-main {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  color: white;
+  background-color: black;
+  width: 100vw;
+  height: 20vh;
+}
+footer .footer-main .links {
+  gap: 20px;
+}
+footer .footer-main a {
+  color: white;
+  text-decoration: underline;
+}/*# sourceMappingURL=App.css.map */
